@@ -38,6 +38,7 @@ Il permet de comprendre :
 
 ##  Organisation du projet
 
+```text
 PizzaRecipes/
 │
 ├── java/com/example/pizzarecipes/
