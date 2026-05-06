@@ -35,42 +35,7 @@ Il permet de comprendre :
 - Architecture organisée en packages
 
 ---
-##  Organisation du projet
 
-```text
-PizzaRecipes/
-├── app/
-│   └── src/
-│       └── main/
-│           ├── java/
-│           │   └── com/example/pizzarecipes/
-│           │       ├── classes/
-│           │       │   └── Produit.java
-│           │       ├── dao/
-│           │       │   └── IDao.java
-│           │       ├── service/
-│           │       │   └── ProduitService.java
-│           │       ├── adapter/
-│           │       │   └── PizzaAdapter.java
-│           │       └── ui/
-│           │           ├── SplashActivity.java
-│           │           ├── ListPizzaActivity.java
-│           │           └── PizzaDetailActivity.java
-│           │
-│           └── res/
-│               ├── layout/
-│               │   ├── activity_splash.xml
-│               │   ├── activity_list_pizza.xml
-│               │   ├── row_pizza.xml
-│               │   └── activity_pizza_detail.xml
-│               │
-│               └── drawable/
-│                   ├── pizza1.jpg
-│                   ├── pizza2.jpg
-│                   ├── pizza3.jpg
-│                   ├── pizza4.jpg
-│                   └── ...
-```
 
 ##  Description des composants
 
