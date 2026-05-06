@@ -35,45 +35,42 @@ Il permet de comprendre :
 - Architecture organisée en packages
 
 ---
-
 ##  Organisation du projet
 
-```
+```text
 PizzaRecipes/
-│
-├── java/com/example/pizzarecipes/
-│   ├── classes/
-│   │   └── Produit.java
-│   │
-│   ├── dao/
-│   │   └── IDao.java
-│   │
-│   ├── service/
-│   │   └── ProduitService.java
-│   │
-│   ├── adapter/
-│   │   └── PizzaAdapter.java
-│   │
-│   └── ui/
-│       ├── SplashActivity.java
-│       ├── ListPizzaActivity.java
-│       └── PizzaDetailActivity.java
-│
-└── res/
-    ├── layout/
-    │   ├── activity_splash.xml
-    │   ├── activity_list_pizza.xml
-    │   ├── row_pizza.xml
-    │   └── activity_pizza_detail.xml
-    │
-    └── drawable/
-        ├── pizza1.jpg
-        ├── pizza2.jpg
-        ├── pizza3.jpg
-        ├── pizza4.jpg
-        └── ...
-
----
+├── app/
+│   └── src/
+│       └── main/
+│           ├── java/
+│           │   └── com/example/pizzarecipes/
+│           │       ├── classes/
+│           │       │   └── Produit.java
+│           │       ├── dao/
+│           │       │   └── IDao.java
+│           │       ├── service/
+│           │       │   └── ProduitService.java
+│           │       ├── adapter/
+│           │       │   └── PizzaAdapter.java
+│           │       └── ui/
+│           │           ├── SplashActivity.java
+│           │           ├── ListPizzaActivity.java
+│           │           └── PizzaDetailActivity.java
+│           │
+│           └── res/
+│               ├── layout/
+│               │   ├── activity_splash.xml
+│               │   ├── activity_list_pizza.xml
+│               │   ├── row_pizza.xml
+│               │   └── activity_pizza_detail.xml
+│               │
+│               └── drawable/
+│                   ├── pizza1.jpg
+│                   ├── pizza2.jpg
+│                   ├── pizza3.jpg
+│                   ├── pizza4.jpg
+│                   └── ...
+```
 
 ##  Description des composants
 
@@ -135,7 +132,7 @@ Cette activité affiche les détails de la pizza sélectionnée.
 ### 1. Écran principal : liste des pizzas
 
 
-<img width="242" height="508" alt="image" src="https://github.com/user-attachments/assets/b2f12f19-871e-437d-ac42-1529f5a9a677" />
+<img width="260" height="505" alt="image" src="https://github.com/user-attachments/assets/0d182382-515b-4beb-9b29-1b0154f1c3c0" />
 
 
 ---
@@ -144,7 +141,7 @@ Cette activité affiche les détails de la pizza sélectionnée.
 
 
 
-<img width="251" height="508" alt="image" src="https://github.com/user-attachments/assets/602b23fd-9a9e-4d8d-a5c1-583a554ad9ad" />
+<img width="246" height="522" alt="image" src="https://github.com/user-attachments/assets/2226d8be-2169-4eea-ad50-9f5dbccd71ae" />
 
 
 ---
@@ -189,6 +186,3 @@ Ce travail m’a permis de mieux comprendre :
 
 ---
 
-## 👤 Auteur
-
-Projet réalisé dans le cadre d’un travail pratique Android Java.
